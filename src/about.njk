@@ -6,10 +6,10 @@ title: devfreedom?
 <div class="flex flex-col md:flex-row lg:flex-row items-center justify-center text-md">
     {% if author.avatar %}
         <a href="{{ author.homepage | url }}" target="_blank" rel="noopener">
-        <img class="w-32 h-32 md:w-40 md:h-40 m-5" src="{{ author.avatar | url }}" width="128" height="128" alt="Author avatar">
-    </a>
+            <img class="w-32 h-32 md:w-40 md:h-40 m-5" src="{{ author.avatar | url }}" width="128" height="128" alt="Author avatar">
+        </a>
     {% endif %}
-    <div class="text-left>
+
     <div class="text-center mt-8">
         <h1 class="text-xl font-semibold text-gray-800 leading-relaxed mt-0 mb-1">
             <a href="{{ author.homepage | url }}" target="_blank" rel="noopener">{{ author.name }}</a>
